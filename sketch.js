@@ -13,7 +13,7 @@ function preload(){
 
 function setup() {
 
-  createCanvas(1400,400);
+  createCanvas(1600,400);
 
   speed=random(30,100);
   weight=random(700,2500);
@@ -27,7 +27,7 @@ function setup() {
   car.addAnimation("lethal",lethalimg);
   car.velocityX=speed;
 
-  wall=createSprite(1340, 200, 40, 200);
+  wall=createSprite(1500, 200, 60, height/2);
   wall.shapeColor="grey";
 
 }
